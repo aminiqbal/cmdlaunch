@@ -1,4 +1,6 @@
-# CmdLaunch [Windows x64 Only]
+# CmdLaunch [Windows x64]
+![](https://github.com/aminiqbal/cmdlaunch/blob/main/CMDLAUNCH/cmdLaunchBanner.png)
+
 This program adds an item to the general _right-click_ context menu in Windows which, when selected, will launch a Command Prompt window whose working directory will be set to the location where the program was launched from.
 
 For example, if a user launches __CmdLaunch__ at the directory ```C:/Program Files/MyDir```, the Command Prompt program will launch with its working directory set at the location __CmdLaunch__ was started from:
