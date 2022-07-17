@@ -15,6 +15,7 @@ C:\Program Files\MyDir>_
 * Run the ```Install.bat``` file to add CMDLaunch to the right-click context menu.
   * Launch a Command Prompt window with desired location as working directory by right-clicking empty space within that window and selecting the item labeled __CmdLaunch__.
 * Run the ```Uninstall.bat``` file to remove the program from your right-click context menu.
+* The ```InstallElevated.bat``` and ```UninstallElevated.bat``` files work the same way, but instead will add or remove a context menu item that will let you launch CMD with elevated privileges.
 
 ## Other
 __CmdLaunch__ runs on _Java 18_ and a minimal runtime has been packaged along with the program. Therefore, the program will run out of the box. The ```.bat``` files make non-intrusive changes to the registry and can be inspected to confirm so.
